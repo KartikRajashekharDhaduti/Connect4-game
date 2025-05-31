@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#winner {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(121, 121, 216);
+    border: 10px solid rgb(34, 34, 190);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(34, 34, 190);
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.red-piece {
+    background-color: red !important;
+}
+
+.yellow-piece {
+    background-color: yellow !important;
+}
